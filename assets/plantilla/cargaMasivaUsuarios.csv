@@ -1,0 +1,125 @@
+﻿genero;primer_nombre;seundo_nombre;primer_apellido;segundo_apellido;cedula;dia_vinculacion;mes_vinculacion (en letras);año_vinculacion;cargo;codigo;grado;activo;salario;coordinacion;primas_tecnicas
+masculino;Adalberto ;;Diaz ;Julio;9158759;14;febrero;2011;Tecnico ;3100;17;1;3806786;0;0
+masculino;Adalberto ;Rafael ;Santodomingo ;Rodriguez ;85462654;2;noviembre ;2023;Profesional Especializado;2028;12;1;4766134;0;0
+masculino;Albeis ;James ;Fuentes ;Pimienta ;84451162;21;diciembre ;2023;Jefe de la oficina jurdica ;0137;15;1;8819983;0;1
+femenino;Alejandra ;Patricia ;Carrascal ;Franco ;1082927301;19;diciembre ;2022;Profesional Universitario ;2044;05;1;3505614;0;0
+masculino;Alfe ;Luis ;Colpas ;Aguilar ;77031932;1;octubre;2018;Profesional Universitario ;2044;9;1;4168604;0;0
+masculino;Alfredo ;Rafael;Martinez;Gutierrez;12556160;17;noviembre ;1992;Director general ;0015;24;1;16079145;0;1
+femenino;Ana;Mercedes ;Mendinueta ;Miranda ;57270651;6;octubre;2016;Profesional Universitario ;2044;05;1;3505614;1;0
+femenino;Ana;Cecilia ;Vega;Gonzalez;41740739;8;marzo ;1993;Profesional Especializado;2028;17;1;6928453;0;0
+femenino;Andrea;Carolina ;Rodriguez;Loaiza;1082862300;8;julio;2020;Profesional Especializado;2028;12;1;4766134;0;0
+femenino;Andreina;de Jesus;Villa;De la Cruz;1079932555;16;diciembre ;2022;Tecnico Administrativo ;3124;14;1;3011402;0;0
+femenino;Angelica ;Patricia ;Garrido ;Galindo ;1082880081;5;septiembre;2022;Profesional Especializado;2028;12;1;4766134;0;0
+femenino;Angelica ;Maria ;Rodriguez;Orduz;1120739330;10;marzo ;2023;Subdirector ;0040;17;1;9430880;0;1
+femenino;Angelina ;del Carmen;Garcia ;Aycardi ;36696832;7;octubre;2014;Jefe de oficina ;0137;10;1;7501641;0;1
+femenino;Aracellis;Ana;Pertuz;Cantillo;26883791;4;marzo ;2024;Auxiliar Administrativo ;4044;24;1;3432781;0;0
+masculino;Aurelio ;;Cruz;Pino;8723262;11;diciembre ;2008;Profesional Universitario ;2044;6;1;3627684;0;0
+femenino;Ayfa ;Patricia ;Pulido ;Rondon;51971284;31;agosto ;2022;Secretario Ejecutivo ;4210;22;1;2850336;0;0
+femenino;Carime ;Del Carmen;Arroyo ;Sarmiento;1066744066;21;enero;2022;Tecnico ;3100;18;1;4183337;0;0
+masculino;Carlos;Jose ;Noguera;Mario;72311695;5;septiembre;2022;Profesional Especializado;2028;13;1;5163904;0;0
+masculino;Carlos;Augusto ;Santodomingo ;Vega;7143016;19;abril;2011;Profesional Especializado;2028;16;1;6587097;1;0
+femenino;Carol;Patricia ;Marquez;Tapias;36719818;23;enero;2014;Jefe de oficina ;0137;15;1;8819983;0;1
+femenino;Cecilia ;Mercedes ;Vives;Campo;36719298;22;junio;2015;Profesional Universitario ;2044;10;1;4310846;0;0
+femenino;Cindy ;Tatiana ;Caballero ;Cantillo;1081787788;4;diciembre ;2020;Secretario Ejecutivo ;4210;21;1;2685993;0;0
+femenino;Clarybeth ;Sofia ;Hernandez;Somerson ;1082907798;17;enero;2019;Profesional Especializado;2028;13;1;5163904;0;0
+femenino;Claudia ;Juliana;Ramirez;Alcazar;57299522;4;octubre;2018;Tecnico;3100;16;1;3556004;0;0
+masculino;David;Antonio ;Morales ;Grau ;12539024;1;septiembre;1994;Profesional Especializado;2028;15;1;6109678;0;0
+femenino;Dayana;Patricia ;Valero;Ospino ;1082934288;1;septiembre;2023;Profesional Universitario ;2044;08;1;3996570;0;0
+masculino;Demin;Jose ;Pinto ;Brito;85469828;7;octubre;2014;Profesional Especializado;2028;14;1;5526100;0;0
+femenino;Diana ;Marcela ;Bonilla ;Avendaño ;1032373618;3;octubre;2022;Profesional Universitario;2044;10;1;4310846;0;0
+femenino;Diana ;Karina ;Martinez;Vergara;32892431;1;agosto ;2018;Asesor ;1020;07;1;6588038;0;0
+femenino;Dolys;;Rocha ;Lucero;57407471;21;octubre;1999;Profesional Universitario ;2044;09;1;4168604;0;0
+masculino;Eder;Enrique;Villalobos;Palma;7633800;23;enero;2012;Tecnico;3100;15;1;3147287;0;0
+femenino;Edilma ;Beatriz ;Tejeda;Guerra;57440945;9;enero;2019;Profesional Especializado;2028;12;1;4766134;0;0
+masculino;Eduar;;Larios;Medina;85040550;18;noviembre ;2022;Tecnico ;3100;12;1;2049846;0;0
+femenino;Eilyn ;Carolina ;Freile ;Lopesierra ;39048718;20;marzo ;2007;Profesional Especializado;2028;13;1;5163904;1;0
+masculino;Elder ;Orlando ;De lima ;Rosado ;1082869300;10;febrero;2015;Profesional Universitario ;2044;5;1;3505614;1;0
+femenino;Eliana;Patricia ;Toro;Alvarez;26670823;24;diciembre ;2022;Asesor ;1020;07;1;6588038;0;0
+masculino;Eliecer ;Manuel ;Henriquez;Cataño ;12561793;18;septiembre;2020;Conductor Mecanico ;4103;19;1;2499848;0;0
+femenino;Elis ;Tatiana ;Nieves ;Avila;1065576854;10;octubre;2022;Tecnico Administrativo ;3100;17;1;3806786;0;0
+femenino;Esly ;Catalina ;Del toro ;Marin ;1082873049;1;abril;2013;Profesional Universitario ;2044;05;1;3505614;0;0
+masculino;Esneider ;Enrique;Correa ;Perez;77104514;8;octubre;2018;Profesional Universitario;2044;09;1;4168604;0;0
+masculino;Esneider ;Alfredo;Pallares;Miranda ;1065663005;8;octubre;2018;Profesional Especializado;2028;13;1;5163904;1;0
+femenino;Evangelina ;;Duran ;Nuñez ;36666861;10;marzo ;2023;Profesional Universitario ;2044;05;1;3505614;0;0
+femenino;Fanyyanys ;Lina;De la hoz ;Vera;1102809557;21;julio;2020;Auxiliar Administrativo ;4044;21;1;2685993;0;0
+masculino;Francisco;Jairo;Sanchez;De la Hoz;85472720;24;julio;2015;Profesional Especializado;2028;14;1;5526100;0;0
+masculino;Franklin ;Adolfo ;Moscote ;Pereira ;84079330;9;noviembre ;2018;Profesional Universitario ;2044;8;1;3996570;0;0
+masculino;Freddy ;Rafael ;Benavides ;Ramos ;1082986989;21;noviembre ;2022;Profesional Universitario ;2044;10;1;4310846;0;0
+femenino;Genexy;Magaly ;Troncoso ;Castro;68291795;2;abril;2007;Profesional Especializado;2028;18;1;7461595;0;0
+masculino;Gustavo;;Pertuz;Valdes ;72202972;7;julio;2003;Profesional Especializado;2028;17;1;6928453;1;0
+masculino;Henry ;Henry ;Gomez ;Jimenez;5152833;20;enero;1993;Profesional Especializado;2028;12;1;4766134;0;0
+masculino;Hernan;;Parodi;Arias;12533016;27;diciembre ;1993;Profesional Especializado;2028;17;1;6928453;0;0
+femenino;Hilka ;Sayuris ;Camargo ;Escorcia ;1082889215;10;febrero;2015;Profesional Especializado;2028;12;1;4766134;0;0
+masculino;Jairo ;Daniel ;Cuetto ;Moreno ;12545932;11;marzo ;1994;Tecnico Administrativo ;3100;18;1;4183337;0;0
+femenino;Jatna;Alejandra ;Vanegas;Chinchilla;1096792397;16;octubre;2018;Profesional Universitario ;2044;10;1;4310846;0;0
+femenino;Jenifer;;Abello ;Orjuela ;36724195;11;abril;2007;Tecnico Administrativo ;3100;18;1;4183337;0;0
+femenino;Joelis ;Andrea ;Acuña ;Bon ;1065899673;1;agosto ;2023;Profesional Especializado;2028;13;1;5163904;0;0
+masculino;Jorge ;Alfonso ;Hani ;Cusse;72180034;20;diciembre ;2014;Jefe de oficina ;0137;15;1;8819983;0;1
+masculino;Jorge ;Eliecer ;Morales ;Ponson;12543973;5;noviembre ;1992;Profesional Especializado;2028;13;1;5163904;0;0
+masculino;Jorge ;Luis ;Pabon ;Pertuz;1082880562;24;julio;2017;Profesional Especializado;2028;14;1;5526100;0;0
+masculino;Jorge ;Andres;Torregroza;Sanchez;1082842201;8;octubre;2018;Profesional Especializado;2028;18;1;7461595;0;0
+masculino;Jose;Luis ;Ortega ;Palomino;85460714;2;febrero;2015;Conductor Mecanico ;4103;20;1;2577517;0;0
+masculino;Josue ;Ignacio ;Campo ;Mendoza ;84459020;24;junio;2015;Profesional Especializado;2028;16;1;6587097;0;0
+masculino;Juan ;Carlos ;Aaron ;Ordoñez ;85448870;19;marzo ;2002;Profesional Universitario ;2044;10;1;4310846;1;0
+masculino;Juan ;Pablo;Abello ;Orjuela ;1082874114;21;noviembre ;2022;Tecnico ;3100;12;1;2724337;0;0
+masculino;Juan ;David ;Posada;Rodriguez ;1037603892;2;diciembre ;2022;Profesional Especializado;2028;12;1;4766134;0;0
+masculino;Juan ;Pablo;Sanchez;Pardo;88210875;6;noviembre ;2018;Profesional Especializado;2028;17;1;6928453;1;0
+masculino;Julian ;Armando ;Pernett;Ceballos;1065617415;1;agosto ;2023;Profesional Especializado;2028;16;1;6587097;0;0
+femenino;Juliana ;;Contretas ;Velencia ;1050962891;19;abril;2023;Tecnico ;3100;12;1;2724337;0;0
+femenino;Juliana ;;Diaz Granados ;Vives ;1136886616;9;septiembre;2022;Asesor ;1020;07;1;7858372;0;0
+femenino;Julieth ;Andrea ;Prieto ;Rodriguez ;1010169128;11;marzo ;2013;Profesional Especializado;2028;16;1;6587097;0;0
+femenino;Karen ;Giselle ;Bozon ;Espinosa;1082852922;4;junio;2019;Profesional Especializado;2028;14;1;5526100;0;0
+femenino;Katia;Karina ;Osorio;Hernandez;36723506;19;octubre;2009;Profesional Especializado;2028;13;1;5163904;0;0
+femenino;Katty ;Paola;Amaya ;Brieva ;1102851114;5;septiembre;2022;Profesional Especializado;2028;16;1;6587097;0;0
+femenino;Kerby ;Alejandra ;Jordi ;Gutierrez;1082889211;8;octubre;2018;Profesional Especializado;2028;14;1;5526100;0;0
+femenino;Lauryn ;Liliana;Tapias;Villa;57293818;1;septiembre;2020;Profesional Especializado;2028;12;1;4766134;0;0
+femenino;Liliana ;Margarita ;Hidalgo ;Garcia;36564699;5;noviembre ;1992;Jefe de oficina ;137;15;1;8819983;0;1
+femenino;Lilibeth ;;Tovar ;Jimeno;39048621;4;octubre;2018;Profesional Especializado;2028;18;1;7461595;1;0
+femenino;Lina ;Margarita ;Escobar ;Winston ;26671630;29;octubre;2007;Profesional Especializado;2028;17;1;6928453;1;0
+femenino;Lina ;Paola;Herrera ;Mora;1016034049;8;octubre;2018;Profesional Universitario ;2044;10;1;4310846;0;0
+masculino;Luis ;Enrique;Sepulveda;Diaz;7602847;28;septiembre;2018;Profesional Especializado;2028;15;1;6109678;1;0
+femenino;Luz;Hicela ;Mosquera ;Mosquera ;35602652;5;enero;2024;Jefe de oficina ;0137;15;1;8819983;0;1
+femenino;Maria ;Victoria ;Corzo ;;36553665;30;abril;1998;Tecnico ;3100;17;1;3806786;0;0
+femenino;Maria ;del Carmen ;Cotes ;Roa ;36563870;3;enero;2023;Secretario Ejecutivo ;4210;21;1;2685993;0;0
+femenino;Maria ;Inmaculada;Danies;Silva;36551277;9;diciembre ;1996;Profesional Especializado;2028;17;1;6928453;1;0
+femenino;Maria ;Lizeth;Estrada ;Ospino ;1085101040;1;noviembre ;2018;Profesional Especializado;2028;12;1;4766134;0;0
+femenino;Maria ;Cecilia ;Serrano;Fuentes;1082851669;8;octubre;2018;Profesional Especializado;2028;13;1;5163904;0;0
+femenino;Maricruz;del Carmen ;Ferrer;Fernandez;52008531;11;marzo ;2013;Profesional Universitario ;2044;11;1;4492340;1;0
+masculino;Mario ;Andres;Garnica ;Sarmiento ;1152683549;20;febrero;2024;Tecnico ;3100;12;1;2724337;0;0
+femenino;Marlen ;Cecilia ;Medina ;Teheran ;45581507;14;enero;2019;Profesional Especializado;2028;16;1;6587097;0;0
+femenino;Melissa;Paola ;Camargo ;Yacomelo ;1082906100;15;noviembre ;2022;Profesional Especializado;2028;13;1;5163904;1;0
+femenino;Monica;Alejandra ;Toro;Alvarez;36719502;1;octubre;2014;Profesional Especializado;2028;12;1;4766134;1;0
+femenino;Nancy ;Carolina ;Sanchez;Calle;53006267;24;enero;2014;Profesional Especializado;2028;16;1;6587097;1;0
+femenino;Natalia ;;Carretero ;Chedraui ;39024573;23;enero;2014;Profesional Especializado;2028;19;1;8026091;0;0
+femenino;Natalia ;Margarita ;Pardo;Fernandez;1082898041;5;septiembre;2022;Tecnico;3100;13;1;2905284;0;0
+masculino;Nelson;;Martinez;Gutierrez;11221471;24;noviembre ;2003;Profesional Especializado;2028;16;1;6587097;0;0
+masculino;Neyer;Manuel ;Valencia;Saltaren ;17953222;1;febrero;2008;Tecnico;3100;12;1;2724337;0;0
+femenino;Neyla ;Esther ;Martinez;Orozco;57428676;4;noviembre ;1992;Profesional Especializado;2028;14;1;5526100;0;0
+femenino;Omalys ;Beatriz ;King ;Fernandez;57435291;5;noviembre ;1992;Profesional Universitario;2044;9;1;4168604;0;0
+masculino;Onil ;Gregorio ;Mendoza ;Florez;9272435;4;octubre;2018;Conductor Mecanico ;4103;20;1;2577517;0;0
+femenino;Paola ;Yulied;Valencia;Acuña;57464404;28;septiembre;2018;Profesional Universitario ;2044;09;1;4168604;0;0
+masculino;Paul ;Gillermo;Laguna ;Panetta;84450538;22;febrero;2013;Secretario General ;0037;17;1;9430880;0;1
+masculino;Paul ;David ;Montenegro;Badillo;1143258311;1;agosto ;2023;Tecnico;3100;12;1;2724337;0;0
+masculino;Pedro ;Jose ;Barandica ;Rodriguez ;85476162;16;octubre;2008;Conductor Mecanico ;4103;21;1;2685993;0;0
+femenino;Rebeca ;Alicia ;Perez;Ramirez ;57438806;9;abril;2013;Tecnico ;3100;18;1;4183337;0;0
+masculino;Richard ;;Garcia ;Maestre ;12549421;19;enero;1993;Tecnico Operativo ;3100;18;1;4183337;0;0
+masculino;Richard ;Antony;Tache ;Yejas;7601538;21;noviembre ;2005;Profesional Universitario ;2044;7;1;3807272;1;0
+femenino;Ruth ;Mery ;Maldonado ;Figueroa ;39532408;1;diciembre ;1995;Profesional Especializado;2028;12;1;4766134;1;0
+femenino;Sandra ;Milena ;Guerra ;Palmera ;55225032;5;septiembre;2022;Tecnico ;3100;14;1;3011402;0;0
+femenino;Sara ;Victoria ;Diaz Granados ;Cuenca ;36665480;3;enero;2023;Profesional Universitario ;2044;11;1;4492340;0;0
+femenino;Semiramis ;del Carmen ;Sosa;Tapias;36720447;1;septiembre;2009;Subdirector ;0040;17;1;9430880;0;1
+femenino;Shindy ;del Carmen ;Fernandez ;Ramirez ;33309979;1;abril;2007;Profesional Especializado;2028;12;1;4766134;1;0
+femenino;Shirley ;Carolina ;Davila ;Ramos ;1052980757;11;agosto ;2023;Tecnico ;3100;12;1;2724337;0;0
+femenino;Sibil ;Isabel;Rudas;Gonzalez;1082915144;16;marzo ;2023;Profesional Universitario ;2044;10;1;4310846;0;0
+femenino;Sindry;Katherine;Ortega ;Cardenas;57460516;17;agosto ;2017;Tecnico ;3100;13;1;2905284;0;0
+femenino;Stepany;Vanessa;Zuñiga;Padilla;1082861226;1;octubre;2018;Profesional Especializado;2028;18;1;7461595;0;0
+femenino;Sugey ;Tatiana ;Pantoja;Simanca;26670916;14;noviembre ;2017;Profesional Especializado;2028;14;1;5526100;1;0
+femenino;Viviana ;Andrea ;Martinez;Quintero ;52805896;2;abril;2019;Secretario Ejecutivo ;4210;24;1;3432781;0;0
+masculino;Wiber ;Miguel ;Fuentes ;Valdes ;3800250;8;octubre;2018;Profesional Especializado;2028;14;1;5526100;0;0
+masculino;William ;Manuel ;Montes;Marquez;12542715;10;febrero;2015;Tecnico;3100;14;1;3011402;0;0
+femenino;Yainis ;Maolis ;Barahona ;Castillo ;26946398;18;septiembre;2018;Profesional Especializado;2028;12;1;4766134;1;0
+femenino;Yesenia ;Patricia ;Frutos ;Anaya ;32785078;1;marzo ;2011;Tecnico ;3100;16;1;3556004;0;0
+femenino;Yolima;Maria Auxiliadora;Murillo;Pereira ;57441267;18;agosto ;2009;Profesional Especializado;2028;16;1;6587097;0;0
+femenino;Zuleima ;Esther ;Colon ;Martinez ;57405237;2;agosto ;2017;Tecnico ;3100;13;1;2905284;0;0
+femenino;Zully;Vitalina ;Ojeda;Bautista ;51954508;1;septiembre;2023;Profesional Especializado;2028;13;1;5163904;0;0
+femenino;Zuly;Esther ;Muñoz;De la Hoz;1128126073;14;agosto ;2017;Secretario Ejecutivo ;4210;24;1;3432781;0;0

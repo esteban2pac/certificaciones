@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #86cfe9;
+}
+.image-left {
+    margin-top: 10px;
+}
+.image-left {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 120px;
+}
+.modulo-ingreso {
+    width: 400px;
+    height:200px;
+    background: white;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 7px 13px 37px #86cfe9;
+    padding: 20px 30px;
+    border-top: 15px solid #86cfe9;
+    border-radius: 20px;
+    color: black;
+}
+.modulo-ingreso h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+.controls {
+    width: calc(100% - 22px);
+    border: 1px solid #a5a5ff;
+    margin-bottom: 5%;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+}
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #0059ff;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24; 
+    padding: 10px; 
+    border: 1px solid #f5c6cb;
+    border-radius: 4px; 
+    margin: 10px 0;
+    text-align: center;
+}

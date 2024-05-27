@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #86cfe9;
+    color: black;
+    padding: 10px;
+}
+
+.image-left {
+    margin-top: 10px;
+}
+
+.image-left {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 120px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    position: relative; /* Posición relativa para que el dropdown se posicione correctamente */
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px; /* Ajustar para que quede justo debajo del header */
+    right: 10px; /* Ajustar para alinear a la derecha */
+    background-color: #86cfe9; /* Mismo color que el header */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px; /* Ancho del menú */
+    transition: max-height 0.3s ease-out; /* Transición para la animación */
+    overflow: hidden; /* Ocultar contenido desbordante */
+    max-height: 0; /* Oculto inicialmente */
+}
+
+.dropdown-menu.show {
+    display: block;
+    max-height: 100px; /* Ajustar según la altura del contenido */
+}
+
+#logout-button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ocupa el 100% del ancho del dropdown */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Altura total menos el header */
+    background-color: #d6ebf2; /* Fondo azul oscuro */
+    width: 100%;
+    margin:2%;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column; /* Alinea elementos en columna */
+    justify-content: center;
+    align-items: center;
+    background-color: #004faa; /* Fondo azul oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative; /* Posición relativa para el párrafo */
+}
+
+.icon-container p {
+    margin-top: 10px; /* Espacio entre el icono y el párrafo */
+    color: white; /* Color blanco para el texto */
+    font-size: 26px;
+}
+
+.main-icon {
+    width: 120px;
+    height: 120px;
+    fill: white; /* Icono blanco */
+    transition: fill 0.3s ease;
+}
+
+.icon-container:hover .main-icon {
+    fill: #fff;
+}
