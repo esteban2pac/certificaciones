@@ -20,7 +20,7 @@ if (isset($_SESSION["cedula"])) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $cedula = $_POST["cedula"];
 
-    $sql = "SELECT activo FROM usuario WHERE cedula = ?";
+    $sql = "SELECT estado FROM usuario WHERE cedula = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("s", $cedula);
     $stmt->execute();
@@ -29,9 +29,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
         $_SESSION["cedula"] = $cedula;
-        $_SESSION["activo"] = $row["activo"];
-        $activo = $row["activo"];
-        if ($activo == 1) {
+        $_SESSION["estado"] = $row["estado"];
+        $estado = $row["estado"];
+        if ($estado == 1) {
             header("Location:../../main-page.php");
             exit();
         } else {

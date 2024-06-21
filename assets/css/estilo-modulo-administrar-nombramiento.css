@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #268fff;
+    background-color: white;
+}
+tbody tr:nth-child(odd) {
+    background-color: #d2e8ff;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+thead th:nth-child(1) {
+    width: 30%;
+}
+thead th:nth-child(2) {
+    width: 30%;
+}
+thead th:nth-child(3) {
+    width: 30%;
+}
+th,
+td {
+    padding: 20px;
+}
+tbody td {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #86cfe9;
+    color: black;
+    padding: 10px;
+}
+.image-left {
+    margin-top: 10px;
+}
+.image-left {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 120px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+.user-info span {
+    margin-right: 10px;
+}
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px; 
+    right: 10px; 
+    background-color: #86cfe9; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px; 
+    transition: max-height 0.3s ease-out; 
+    overflow: hidden; 
+    max-height: 0; 
+}
+.dropdown-menu.show {
+    display: block;
+    max-height: 100px; 
+}
+#logout-button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+main {
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    background-color: #d6ebf2; 
+    width: 96%;
+    margin-left:2%;
+    margin-bottom:2%;
+    margin-top: 2%;
+}
+.boton-rojo{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boton-azul{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.boton-azul[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.boton-trasnparente{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cfcfcf94;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boton-trasnparente[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.contenedor-nombramientos {
+    display: flex;
+    align-items: flex-start;
+    width: 100%
+}
+.innerbox-nombramientos{
+    min-height: 250px;
+    width: 30%;
+    text-align: left;
+    background-color: white;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.innerbox-nombramientos h3{
+    background-color: #268fff;
+    text-align: left;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.innerbox-nombramientos h4{
+    margin-left: 10%;
+}
+.innerbox-nombramientos-editar {
+    min-height: 250px;
+    width: 30%;
+    text-align: left;
+    background-color: white;
+    display: none;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.innerbox-nombramientos-editar h3 {
+    background-color: #268fff;
+    text-align: left;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.innerbox-nombramientos-editar h4 {
+    margin-left: 10%;
+}
+.input-parametros-nombramiento{
+    width: 80%;
+    border: 1px solid #a5a5ff;
+    margin-left: 10%;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.modal-confirmar {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-confirmar-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.modal-confirmar-content-lista{
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.modal-confirmar-header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.modal-confirmar-header-cambiar-estado {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+}
+.modal-confirmar-header-guardar{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.modal-confirmar-body {
+    padding: 20px;
+}
+.modal-confirmar-footer {
+    padding: 10px;
+    text-align: right;
+}
+.box-nombramientos{
+    background-color: white;
+    width: 80%;
+    min-height: 80%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+.box-nombramientos h4{
+    margin-left: 2%;
+}
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24; 
+    padding: 10px; 
+    border: 1px solid #f5c6cb;
+    border-radius: 4px; 
+    margin: 10px 0;
+    text-align: center;
+}
+.success-message {
+    background-color: #d7eff8;
+    color: #60b2de; 
+    padding: 10px; 
+    border: 1px solid #c9f1ff;
+    border-radius: 4px; 
+    margin: 10px 0;
+    text-align: center;
+}
+.blue-button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-left:1.5%;
+    margin-right:1.5%;
+}
+.boton-azul-estado{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-left:1.5%;
+    margin-right:1.5%;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.icono-estado{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+#busqueda-nombramientos{
+    background-image: url('/assets/iconos/busqueda.png');
+    background-size: 2%;
+    background-position: left 0.5% center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    height: 30px;
+    width: 93%;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#anterior-nombramientos{
+    margin-left: 28%;
+}
+#mensaje-tabla-nombramientos{
+    height:0%;
+    padding-left:3%;
+    margin-left:7%;
+    margin-right:7%;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#268fff;
+    font-size:24px;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+#boton-guardar{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 9%;
+}
+#boton-guardar-editar-nombramiento{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 9%;
+}

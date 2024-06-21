@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imagenes/logo.png" type="image/x-icon">
-    <title>Certificaciones laborales corpamag</title>
-    <link rel="stylesheet" href="assets/css/estilo-main-page.css">
+    <title>Certificado sin salario - Corpamag</title>
+    <link rel="stylesheet" href="assets/css/estilo-certificado-sin-salario.css">
 </head>
 <body>
     <header>
@@ -19,16 +19,15 @@
     <div class="dropdown-menu" id="dropdown-menu">
         <button id="logout-button">Salir</button>
     </div>
+    <div class="full-width">
+        <button id="back-button" onclick="location.href='main-page.php';">&xlarr; Volver</button>
+    </div>
     <main>
-        <div class="icon-container" id="container-certificado-sin-salario">
-            <img src="assets/iconos/documento-firmado.png" alt="Certificado sin salario" class="main-icon" id="certificado-sin-salario">
-            <p>Certificacion sin salario</p>
-        </div>
-        <div class="icon-container" id="container-certificado-con-salario">
-            <img src="assets/iconos/money-cheque-editar.png" alt="Certificado con salario" class="main-icon" id="certificado-con-salario">
-            <p>Certificacion con salario</p>
-        </div>
+        <header class="mensaje-certificado-sin-salario"><strong>CERTIFICADO SIN SALARIO</strong></header>
+        <button id="download-button" onclick="location.href='php/certificado-sin-salario/generar-certificado.php?cedula=<?php echo urlencode($cedula); ?>';">
+            Descargar certificado sin salario
+        </button>
     </main>
-    <script src="assets/js/script-main-page.js"></script>
+    <script src="assets/js/script-certificado-sin-salario.js"></script>
 </body>
 </html>

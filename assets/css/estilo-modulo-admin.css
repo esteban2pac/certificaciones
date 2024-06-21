@@ -18,9 +18,6 @@ header {
 
 .image-left {
     margin-top: 10px;
-}
-
-.image-left {
     float: left;
     margin-left: 10px;
     border-radius: 50%;
@@ -77,10 +74,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Permite el ajuste en mÃºltiples lÃ­neas */
     height: calc(100vh - 80px); 
     background-color: #d6ebf2; 
-    width: 100%;
-    margin:2%;
+    width: 96%;
+    height:90%;
+    margin: 2%;
 }
 
 .icon-container {
@@ -91,15 +90,19 @@ main {
     background-color: #004faa; 
     padding: 20px;
     border-radius: 10px;
-    margin-right: 3%;
+    margin: 1%; /* Ajuste para separaciÃ³n y alineaciÃ³n */
     cursor: pointer;
     position: relative; 
+    width: 20%; /* Ajuste del ancho para adaptarse a tres por lÃ­nea */
+    height:300px;
+    box-sizing: border-box; /* Asegura que padding y border estÃ©n incluidos en el ancho total */
 }
 
 .icon-container p {
     margin-top: 10px; 
     color: white; 
     font-size: 26px;
+    text-align:center;
 }
 
 .main-icon {

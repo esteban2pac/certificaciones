@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="assets/imagenes/logo.png" type="image/x-icon">
-        <title>Busqueda certificaciones laborales corpamag</title>
+        <title>certificaciones laborales corpamag</title>
         <link rel="stylesheet" href="assets/css/estilo-modulo-ingreso.css">
     </head>
     <body>

@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imagenes/logo.png" type="image/x-icon">
-    <title>Certificaciones laborales corpamag</title>
-    <link rel="stylesheet" href="assets/css/estilo-main-page.css">
+    <title>Modulo administrar denominacion,codigo y grado certificaciones laborales corpamag</title>
+    <link rel="stylesheet" href="assets/css/estilo-modulo-administrar-denominacion-codigo-grado.css">
 </head>
 <body>
     <header>
@@ -19,16 +19,19 @@
     <div class="dropdown-menu" id="dropdown-menu">
         <button id="logout-button">Salir</button>
     </div>
+    <div>
+        <button id="back-button" class="boton-azul" onclick="location.href='modulo-admin.php';">&xlarr; Volver</button>
+    </div>
     <main>
-        <div class="icon-container" id="container-certificado-sin-salario">
-            <img src="assets/iconos/documento-firmado.png" alt="Certificado sin salario" class="main-icon" id="certificado-sin-salario">
-            <p>Certificacion sin salario</p>
+        <div class="left-div">
+            <input type="text" id="search-bar" class="search-bar" placeholder="Buscar...">
+            <div id="data-container" class="data-container">
+            </div>
         </div>
-        <div class="icon-container" id="container-certificado-con-salario">
-            <img src="assets/iconos/money-cheque-editar.png" alt="Certificado con salario" class="main-icon" id="certificado-con-salario">
-            <p>Certificacion con salario</p>
+        <div class="right-div">
+            <!-- Contenido del 30% -->
         </div>
     </main>
-    <script src="assets/js/script-main-page.js"></script>
+    <script src="assets/js/script-modulo-administrar-denominacion-codigo-grado.js"></script>
 </body>
 </html>

@@ -1,0 +1,315 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #86cfe9;
+    color: black;
+    padding: 10px;
+}
+.image-left {
+    margin-top: 10px;
+}
+.image-left {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 120px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+.user-info span {
+    margin-right: 10px;
+}
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px; 
+    right: 10px; 
+    background-color: #86cfe9; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px; 
+    transition: max-height 0.3s ease-out; 
+    overflow: hidden; 
+    max-height: 0; 
+}
+.dropdown-menu.show {
+    display: block;
+    max-height: 100px; 
+}
+#logout-button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+main {
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    background-color: #d6ebf2; 
+    width: 96%;
+    margin-left:2%;
+    margin-bottom:2%;
+}
+.contenedor-flex{
+    display:flex;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.boton-azul{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.boton-azul[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.boton-rojo {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boton-trasnparente{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cfcfcf94;
+    color: black;
+    cursor: pointer;
+}
+.boton-trasnparente[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.mensaje-agregar-usuario{
+    height:5%;
+    padding-left:3%;
+    margin-left:6%;
+    margin-right:6%;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#268fff;
+    font-size:24px;
+}
+.contenedor-select{
+    width:50%;
+    margin-left:5%;
+}
+.contenedor-input{
+    width:50%;
+    margin-left:5%;
+}
+.input-documento{
+    width: 252px;
+    border: 1px solid #a5a5ff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.input-parametro{
+    width: 252px;
+    border: 1px solid #a5a5ff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.contenedor-parametros{
+    width: 50%;
+    margin-left: 5%;
+}
+.contenedor-parametros input{
+    width:80%
+}
+.modal-confirmar {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-confirmar-content-lista{
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+.modal-confirmar-header-guardar{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.modal-confirmar-body {
+    padding: 20px;
+}
+.modal-confirmar-footer {
+    padding: 10px;
+    text-align: right;
+}
+#documentoSelection{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#documentoSelection option{
+    background-color: white; 
+    color: black; 
+}
+#generoSelection{
+    width: 39.75%; 
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#generoSelection option{
+    background-color: white; 
+    color: black; 
+}
+.contenedor-parametro-unico{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#selectionBonoSalarial{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#fechaPosesion{
+    width:40%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:0.5%;
+    padding-right:0.5%;
+    font-size: 22px;
+    border-radius: 10px; 
+    border: 2px solid #007bff;
+}
+#selectionNombramiento{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#selectionDependencia{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#selectionDenominacion{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#selectionCodigo{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#selectionGrado{
+    width: 84%; 
+    padding-top:1%;
+    padding-bottom:1%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#guardar-usuario{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}

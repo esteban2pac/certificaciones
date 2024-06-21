@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #268fff;
+    background-color: white;
+}
+tbody tr:nth-child(odd) {
+    background-color: #d2e8ff;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+thead th:nth-child(1) {
+    width: 14%;
+}
+thead th:nth-child(2) {
+    width: 14%;
+}
+thead th:nth-child(3) {
+    width: 14%;
+}
+thead th:nth-child(4) {
+    width: 14%;
+}
+thead th:nth-child(5) {
+    width: 14%;
+}
+thead th:nth-child(6) {
+    width: 14%;
+}
+thead th:nth-child(7) {
+    width: 14%;
+}
+th,
+td {
+    padding: 20px;
+}
+tbody td {
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 10px;
+    background-color: #86cfe9;
+    color: black;
+    padding: 10px;
+}
+main {
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    background-color: #d6ebf2; 
+    width: 96%;
+    margin-left:2%;
+    margin-bottom:2%;
+}
+.image-left {
+    margin-top: 10px;
+}
+
+.image-left {
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 120px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    position: relative; 
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px; 
+    right: 10px; 
+    background-color: #86cfe9; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px; 
+    transition: max-height 0.3s ease-out; 
+    overflow: hidden; 
+    max-height: 0; 
+}
+
+.dropdown-menu.show {
+    display: block;
+    max-height: 100px; 
+}
+
+.mensaje-filtro-busqueda{
+    height:5%;
+    padding-left:3%;
+    margin-left:6%;
+    margin-right:6%;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#268fff;
+    font-size:24px;
+}
+.contenedor-flex{
+    display:flex;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.contenedor-select{
+    width:50%;
+    margin-left:5%;
+}
+.contenedor-input{
+    width:50%;
+    margin-left:5%;
+}
+.input-documento{
+    width: 252px;
+    border: 1px solid #a5a5ff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.input-parametro{
+    width: 252px;
+    border: 1px solid #a5a5ff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.contenedor-parametros{
+    width: 50%;
+    margin-left: 5%;
+}
+.contenedor-parametros input{
+    width:80%
+}
+.boton-azul{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.boton-azul[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.boton-trasnparente{
+    padding: 12px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cfcfcf94;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+}
+.boton-trasnparente[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed; 
+}
+.botones{
+    margin-left:3%;
+}
+#logout-button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; 
+}
+#CargoSelectionUsuarios {
+    width: 84%; 
+    padding-top:1.5%;
+    padding-left:1%;
+    padding-bottom:1.5%;
+    font-size: 18px; 
+    border-radius: 10px; 
+    border: 2px solid #007bff; 
+    background-color: white; 
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#input-documento-buscar-usuarios{
+    width:45%;
+}
+#mensaje-buscar-usuarios{
+    height:0%;
+    padding-left:3%;
+    margin-left:7%;
+    margin-right:7%;
+    margin-top:3%;
+    margin-bottom:3%;
+    background-color:#c3c3c3;
+    font-size:24px;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+#tabla-de-buscar-usuarios {
+    width:90%;
+    margin-left:5%;
+}
+.estado-activo {
+    color: green;
+}
+.estado-inactivo {
+    color: red;
+}
+.icono-opcion {
+    cursor: pointer;
+    margin: 0 5px;
+    background-color: #007bff;
+    border-radius: 5px;
+    height: 32px;
+    width: 32px;
+}
